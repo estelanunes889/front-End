@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+2 <html lang="pt-BR">
+3
+4 <head>
+5 <meta charset="UTF-8">
+6 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+7 <title>Minha Loja Online</title>
+8 </head>
+9
+10 <body>
+11
+12 <!-- Cabeçalho -->
+13 <header class="header" id="home">
+14 <h1>Minha Loja Online</h1>
+15
+16 <nav class="nav-menu">
+17 <ul>
+18 <li><a href="#home">Home</a></li>
+19 <li><a href="#produtos">Produtos</a></li>
+20 <li><a href="#sobre">Sobre</a></li>
+21 <li><a href="#contato">Contato</a></li>
+22 </ul>
+23 </nav>
+24 </header>
+25
+26 <main id="home">
+27
+28 <!-- Banner -->
+29 <section class="banner" aria-label="Destaque principal">
+30 <h2>Promoções Imperdíveis</h2>
+31 <p>Os melhores produtos com os melhores preços!</p>
+32 </section>
+33
+34 <!-- Produtos com imagem -->
+35 <section id="produtos">
+36 <h2>Nossos Produtos</h2>
+37
+38 <article class="product-card">
+39 <h3>Smartphone</h3>
+40 <img src="img/iphone.jpg" alt="Imagem de um smartphone moderno">
+41 <p>Smartphone com alta tecnologia.</p>
+42 </article>
+43
+44 <article class="product-card">
+45 <h3>Camiseta</h3>
+46 <img src="img/camisa.jpg" alt="Camiseta casual confortável">
+47 <p>Camiseta de algodão premium.</p>
+48 </article>
+49 </section>
+50
+51 <!-- Sobre -->
+52 <section id="sobre" class="about">
+53 <!-- Vídeo promocional -->
+54 <section class="promo-video">
+55 <h2>Conheça nossa loja</h2>
+56
+57 <video controls width="300">
+58 <source src="img/video.mp4" type="video/mp4">
+59 Seu navegador não suporta vídeo.
+60 </video>
+61 </section>
+62
+63 <!-- Integração com iframe -->
+64 <section class="location">
+65 <h3>Nossa Localização</h3>
+66
+67 <iframe src=
+
+"https://www.youtube.com/embed/a4cA0ET9DRY?si=WXRjD9ngmuBGpHN7" width=
+"300" height="200"
+68 title="Vídeo externo">
+69 </iframe>
+70 <iframe
+
+71 src=
+
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6249.571855
+1402415!2d-43.20067162297481!3d-22.909948079252946!2m3!1f0!2f0!3f0
+!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f0c4e687185%3A0x973c7a140b
+9b61fa!2sEdif%C3%ADcio%20Eco%20Sapuca%C3%AD!5e1!3m2!1spt-BR!2sbr!4
+v1776867085334!5m2!1spt-BR!2sbr"
+
+72 width="300" height="200" style="border:0;" allowfullscreen=""
+
+loading="lazy"
+
+73 referrerpolicy="no-referrer-when-downgrade" width="300" height=
+
+"200" title="Maps">
+
+74 </iframe>
+75 </section>
+76 <h2>Sobre a Loja</h2>
+77 <p>Somos uma loja dedicada a oferecer produtos de qualidade com os
+
+melhores preços.</p>
+
+78 </section>
+79
+80
+81
+82 <!-- Contato -->
+83 <section id="contato" class="contact">
+84 <h2>Contato</h2>
+85
+86 <form aria-label="Formulário de contato">
+87
+88 <label for="nome">Nome:</label>
+89 <input type="text" id="nome" required>
+90
+91 <label for="email">Email:</label>
+92 <input type="email" id="email" required>
+93
+94 <button type="submit">Enviar</button>
+95
+96 </form>
+97 </section>
+98
+99 </main>
+100
+101 <footer>
+102 <p>&copy; 2026 Minha Loja Online</p>
+103 </footer>
+104
+105 </body>
+106 </html>
